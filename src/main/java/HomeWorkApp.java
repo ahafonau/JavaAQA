@@ -39,7 +39,7 @@ public class HomeWorkApp {
     }
 
     public static void printColor(){
-        int value = -1;
+        int value = new Random().nextInt(200) - new Random().nextInt(150);
 
         System.out.println("Упражнение 4:");
 
