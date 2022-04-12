@@ -20,7 +20,7 @@ public class HomeWorkApp {
     public static void checkSumSign(){
         int a = new Random().nextInt();
         int b = new Random().nextInt();
-        int c = a+b;
+        int c = a + b;
 
         System.out.println("Упражнение 3:");
         System.out.println("Значение a = " + a);
@@ -39,7 +39,7 @@ public class HomeWorkApp {
     }
 
     public static void printColor(){
-        int value = -1;
+        int value = new Random().nextInt(200) - new Random().nextInt(150);
 
         System.out.println("Упражнение 4:");
 
