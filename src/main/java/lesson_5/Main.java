@@ -1,5 +1,9 @@
 package lesson_5;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Box<Apple> appleBox = new Box<>();
@@ -32,5 +36,14 @@ public class Main {
 
         System.out.println("Orange box 1 weight: " + orangeBox.getWeight());
         System.out.println("Orange box 2 weight: " + orangeBox2.getWeight());
+        System.out.println("___________________________");
+
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        System.out.println("Our list before:");
+        System.out.println(list);
+        System.out.println("Our list after:");
+        System.out.println(PlacesChanger.changePlaces(list));
     }
 }
