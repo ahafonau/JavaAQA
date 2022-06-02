@@ -1,0 +1,41 @@
+BBC web-site Login: happyPath test case
+
+Preconditions:
+1. The user was created with the next credentials:
+Login: stanfortest@mail.ru
+Password: Password@Test
+
+Steps:
+1. Open https://www.bbc.com/
+2. Click on "Sign in" button
+3. Fill in the "Login" input field with "stanfortest@mail.ru"
+4. Fill in the "Password" input field with "Password@Test"
+5. Click on the confirmation button
+
+Expected Result:
+1. https://www.bbc.com/ web-site was opened
+2. The page with "Sign in" form was opened
+3. The "Login" input field was filled with "stanfortest@mail.ru"
+4. 3. The "Password" input field was filled with "Password@Test"
+5. The user was logged in
+________________________________________________________________________________________
+BBC web-site Login: failPath test case
+
+Preconditions:
+1. The user was created with the next credentials:
+Login: stanfortest@mail.ru
+Password: Password@Test
+
+Steps:
+1. Open https://www.bbc.com/
+2. Click on "Sign in" button
+3. Fill in the "Login" input field with "stanfortest@mail.ru"
+4. Fill in the "Password" input field with "!@#$%^&*()"
+5. Click on the confirmation button
+
+Expected Result:
+1. https://www.bbc.com/ web-site was opened
+2. The page with "Sign in" form was opened
+3. The "Login" input field was filled with "stanfortest@mail.ru"
+4. 3. The "Password" input field was filled with "!@#$%^&*()"
+5. The user was not logged in. "Извините, этот пароль недействителен" error message is displayed
