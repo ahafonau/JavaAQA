@@ -1,0 +1,7 @@
+2022-06-03 02:35:10,434 INFO lesson_13.Triangle calculateArea Calculating area with sides 5 6 7
+2022-06-03 02:35:10,437 INFO lesson_13.Triangle calculateArea Calculating area with sides 5 6 8
+2022-06-03 02:35:10,440 INFO lesson_13_tests.TriangleTest shouldCompareTwoDifferentTriangles Passed
+2022-06-03 02:35:10,449 INFO lesson_13.Triangle calculateArea Calculating area with sides 5 6 7
+2022-06-03 02:35:10,450 INFO lesson_13.Triangle calculateArea Calculating area with sides 5 6 7
+2022-06-03 02:35:10,450 INFO lesson_13_tests.TriangleTest shouldCompareTwoSameTriangles Passed
+2022-06-03 02:35:10,454 INFO lesson_13_tests.TriangleTest shouldThrowExceptionWhenSideIsInvalid Passed
