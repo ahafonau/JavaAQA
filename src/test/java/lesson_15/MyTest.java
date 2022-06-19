@@ -1,16 +1,16 @@
 package lesson_15;
 
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.remote.RemoteWebElement;
 import page.AndersenLabMainPage;
 
-public class MyTests {
+public class MyTest {
     private AndersenLabMainPage andersenLabMainPage;
 
-    @Before
+    @BeforeEach
     public void init(){
         this.andersenLabMainPage = new AndersenLabMainPage();
     }
@@ -27,7 +27,7 @@ public class MyTests {
         Assert.assertEquals(TestData.EXPECTED_ANDERSEN_MAIL_CLASS, andersenMailResult.getAttribute("class"));
     }
 
-    @After
+    @AfterEach
     public void closeWindow(){
         andersenLabMainPage.close();
     }
